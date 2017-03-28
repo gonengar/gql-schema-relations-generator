@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es5",
+    "noImplicitAny": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
+
+/*
+{
+	"compilerOptions": {
+	"target": "es5",
+		"module": "es2015",
+		"declaration": false,
+		"removeComments": true,
+		"noLib": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"lib": ["es2015"],
+		"outDir": "dist",
+		"sourceMap": true,
+		"pretty": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitUseStrict": false,
+		"noFallthroughCasesInSwitch": true,
+		"typeRoots": [
+		"./node_modules"
+	]*/
+/*,
+		"types": [
+		"node"
+	]*//*
+
+},
+	"exclude": [
+	"node_modules",
+	"dist"
+],
+	"compileOnSave": false
+}*/
