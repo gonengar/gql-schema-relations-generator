@@ -12,7 +12,7 @@ Analyze your graphql schema using this package in order to understand relations 
 
 ## Example Usage
 Without taking care of fields descriptions
-#Schema file
+# Schema file
 ```js
 export default `
 type Query {
@@ -58,7 +58,8 @@ console.log(schemaRelations.getRelationsMap());
 ```
 
 Taking care of fields descriptions
-#Schema file
+# Schema file
+(Please note that this time we've added a description to author field under type Post
 ```js
 export default `
 type Query {
