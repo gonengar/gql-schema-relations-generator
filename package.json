@@ -1,6 +1,6 @@
 {
   "name": "gql-schema-relations-generator",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "",
   "main": "./bundles/schema-relations-generator.umd.js",
   "dependencies": {
