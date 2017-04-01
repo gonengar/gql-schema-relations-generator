@@ -57,8 +57,8 @@ console.log(schemaRelations.getRelationsMap());
 ///The output will be: Map { 'Author' => Set { { rootName: 'Post' } } }
 ```
 
-Taking care of fields descriptions
-# Schema file
+# Schema file(with descriptions)
+
 (Please note that this time we've added a description to author field under type Post
 ```js
 export default `
